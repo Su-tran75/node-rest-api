@@ -89,7 +89,7 @@ router.put("/:id/unfollow", async (req, res) => {
       res.status(500).json(err);
     }
   } else {
-    res.status(403).json("You cant funollow yourself");
+    res.status(403).json("You cant unfollow yourself");
   }
 });
 
